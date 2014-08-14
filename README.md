@@ -35,10 +35,15 @@ $ wget -qO- --post-data "in=我来到北京清华大学" http://localhost:port/ 
 }
 ```
 
-Google App Engines Notes:
+Google App Engines online default instance:
 =========
 
 - Building Trie..., from /base/data/home/apps/s~project/##############/jieba/jieba/dict.txt
 - Exceeded soft private memory limit of 128 MB with 157 MB after servicing 0 requests total
 - This request caused a new process to be started for your application, and thus caused your application code to be loaded for the first time. This request may thus take longer and use more CPU than a typical request for your application.
 - While handling this request, the process that handled this request was found to be using too much memory and was terminated. This is likely to cause a new process to be used for the next request to your application. If you see this message frequently, you may have a memory leak in your application.
+
+Google App Engines Limits
+=========
+- https://developers.google.com/appengine/docs/python/backends/#Python_Properties_of_backends
+- https://developers.google.com/appengine/docs/python/config/backends#Python_Instance_classes
