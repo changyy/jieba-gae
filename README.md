@@ -1,4 +1,4 @@
-初次使用
+Init
 =========
 ```
 $ git clone --recursive https://github.com/changyy/jieba-gae.git
