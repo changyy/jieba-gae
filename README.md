@@ -4,8 +4,8 @@
 $ git clone --recursive https://github.com/changyy/jieba-gae.git
 $ mkdir -p ieba-gae/tmp
 $ python jieba-gae/init_jieba_at_console.py 
-Building Trie..., from /Users/changyy/jieba-gae/jieba/jieba/dict.txt
-dumping model to file cache /Users/changyy/jieba-gae/tmp/jieba.cache
+Building Trie..., from /path/jieba-gae/jieba/jieba/dict.txt
+dumping model to file cache /path/jieba-gae/tmp/jieba.cache
 loading model cost 3.25067281723 seconds.
 Trie has been built succesfully.
 Full Mode: 我/ 来到/ 北京/ 清华/ 清华大学/ 华大/ 大学
