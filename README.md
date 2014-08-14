@@ -2,7 +2,7 @@ Init
 =========
 ```
 $ git clone --recursive https://github.com/changyy/jieba-gae.git
-$ mkdir -p ieba-gae/tmp
+$ mkdir -p jieba-gae/tmp
 $ python jieba-gae/init_jieba_at_console.py 
 Building Trie..., from /path/jieba-gae/jieba/jieba/dict.txt
 dumping model to file cache /path/jieba-gae/tmp/jieba.cache
